@@ -5,7 +5,13 @@
 <body>
   <h2>My CD Collection</h2>
   <table border="1">
-
+    <tr bgcolor="#000FFF" >
+      <th style="text-align:left">Title</th>
+      <th style="text-align:left">Artist</th>
+      <th style="text-align:left">Country</th>
+      <th style="text-align:left">Price</th>
+      <th style="text-align:left">Dot</th>
+    </tr>
     <xsl:for-each select="catalog/cd">
     <!-- <xsl:for-each select="catalog/cd[country='USA']"> -->
     <!--<xsl:if test="price &lt; 10"> -->
